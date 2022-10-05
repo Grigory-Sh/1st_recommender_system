@@ -25,7 +25,7 @@ def get_model_path(path: str) -> str:
 
 def load_models():
     # LOAD MODEL HERE PLS :)
-    filename = './cat_model_opti.pkl'
+    filename = './cat_model.pkl'
     model_path = get_model_path(filename)
     loaded_model = pickle.load(open(model_path, 'rb'))
     return loaded_model
